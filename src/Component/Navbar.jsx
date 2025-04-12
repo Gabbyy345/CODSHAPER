@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { FaFacebook, FaInstagram, FaLinkedin, FaSearch, FaTwitter } from 'react-icons/fa';
+import logo from '../assets/logo/Navlogo.png'
 
 
 const Navbar = () => {
@@ -8,7 +9,7 @@ const Navbar = () => {
         <nav className="flex justify-between items-center bg-gray-500 text-white font-semibold py-2 px-2">
 
           <div className='flex gap-5 items-center'>
-                <img src="" alt="Logo" className='w-16 h-16' />               
+                <img src={logo} alt="Logo" className='w-16 h-16' />               
 
              <Link to="/"  >HOME</Link>
 
@@ -54,6 +55,7 @@ const Navbar = () => {
                 <h1>need help</h1>
                 <p>+9233388877</p>
             </div>
+          
            
         </nav>
         

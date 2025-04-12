@@ -11,7 +11,7 @@ const App = () => {
       <Navbar />
       <Heropage/>
       </div>
-      <div className='bg-slate-900 text white'>
+      <div >
       <Experencepage/>
       </div>
         
