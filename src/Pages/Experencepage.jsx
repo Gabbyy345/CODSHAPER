@@ -1,25 +1,13 @@
 import React from 'react'
 import logo from '../assets/logo/logo.png'
+import Carousel from './Carousel'
 
 const Experencepage = () => {
 
-    const data =[
-       {
-        img:'/assets/Partners/Image1.png',
-       },
-       {
-        img:"/assets/Partners/Image2.png",
-
-       },
-       {
-        img:"/assets/Partners/Image3.png",
-       },
-      
-    ]
   return (
     <div className='bg-slate-900 text-white font-semibold '>
         <div className=''>
-            <h1 className='text-4xl font-bold mb-4  flex item-center justify-center font-jost text-white'>
+            <h1 className='text-3xl font-bold mb-4  flex item-center justify-center font-jost text-white'>
                 REAL-WORLD EXPIRENCE
             </h1>
             <p className='text-1xl text-gray-300 flex item-center justify-center font-jost '>The best business consulting firm you can count on!</p>
@@ -71,17 +59,11 @@ const Experencepage = () => {
             <hr className='w-[500px] gray-200' />
            </div>
         </div>
-        {/* main caruosel */}
+        
         <div>
-    <div>
-        {data.map((item, index) => (
-            <div key={index} className='flex gap-2 items-center justify-center px-15  py-15 my-2 font-jost'>
-                <img src={item.img} alt="image" className='w-[200px] h-[200px]' />
-               
-            </div>
-        ))}
-    </div>
+            <Carousel/>
         </div>
+       
     </div>
   )
 }
