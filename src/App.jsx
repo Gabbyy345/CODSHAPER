@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from './Component/Navbar'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Heropage from './Pages/Heropage'
 import Experencepage from './Pages/Experencepage'
 
