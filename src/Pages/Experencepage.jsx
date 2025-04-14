@@ -5,9 +5,9 @@ import Carousel from './Carousel'
 const Experencepage = () => {
 
   return (
-    <div className='bg-slate-900 text-white font-semibold '>
-        <div className=''>
-            <h1 className='text-3xl font-bold mb-4  flex item-center justify-center font-jost text-white'>
+    <div className='bg-slate-900 text-white font-semibold  '>
+        <div >
+            <h1 className='text-3xl font-bold mb-4  flex item-center justify-center font-jost text-white gap-2'>
                 REAL-WORLD EXPIRENCE
             </h1>
             <p className='text-1xl text-gray-300 flex item-center justify-center font-jost '>The best business consulting firm you can count on!</p>

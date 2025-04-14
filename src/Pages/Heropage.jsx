@@ -3,7 +3,7 @@ import React from 'react'
 const Heropage = () => {
   return (
     <div>
-    <div className='bg-gray-500 text-white font-semibold h-screen '>
+    <div className='bg-gray-500 text-white font-semibold h-screen font-jost'>
       <p className='text-1xl mb-4 mt-4 px-15 my-2'>Welcome To CODESHAPER</p>
         <h1 className='text-7xl font-bold mb-4 flex py-10 px-15 my-2 font-jost'>
             CONSULTING <br/> FOR EVERY <br/> BUSINESS

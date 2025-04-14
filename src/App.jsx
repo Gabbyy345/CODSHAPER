@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Component/Navbar'
 import Heropage from './Pages/Heropage'
 import Experencepage from './Pages/Experencepage'
+import Market from './Pages/Market'
 
 const App = () => {
   return (
@@ -12,6 +13,9 @@ const App = () => {
       </div>
       <div >
       <Experencepage/>
+      </div>
+      <div>
+      <Market/>
       </div>
         
     </div>

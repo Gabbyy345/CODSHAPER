@@ -5,6 +5,13 @@ import autoprefixer from 'autoprefixer'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  theme: {
+    extend: {
+      fontFamily: {
+        jost: ['Jost', 'sans-serif'], 
+      },
+    },
+  },
   plugins: [react()
     ,tailwindcss(), autoprefixer()],
 
