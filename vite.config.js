@@ -8,7 +8,7 @@ export default defineConfig({
   theme: {
     extend: {
       fontFamily: {
-        jost: ['Jost', 'sans-serif'], 
+        // jost: ['Jost', 'sans-serif'],
       },
     },
   },
