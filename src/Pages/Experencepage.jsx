@@ -57,11 +57,11 @@ const Experencepage = () => {
       {/* Carousel Section */}   
             <div> 
             <div className="flex gap-2 items-center justify-center px-15 py-15 my-2 font-jost">
-                <hr className="w-[500px] sm:w-[500px] border-gray-200" />
-                <h1 className="sm:text-xl font-bold text-center sm:mx-4 whitespace-nowrap">
+                <hr className="w-[500px] md:w-[500px] border-gray-200" />
+                <h1 className="text-sm font-bold text-center sm:mx-4 whitespace-nowrap">
                 Meet The Partners
                 </h1>
-                <hr className="w-[500px] sm:w-[500px] border-gray-200" />
+                <hr className="w-[500px] md:w-[500px] border-gray-200" />
             </div>
             </div>
       <div>

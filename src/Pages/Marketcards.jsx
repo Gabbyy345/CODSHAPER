@@ -3,10 +3,10 @@ import CasePage from './CasePage';
 
 const Marketcards = () => {
   return (
-    <div className="bg-white text-black font-semibold mt-5 ">
-      <div className="flex items-center justify-center ">
+   
+      <div className="flex items-center justify-center w-full md:flex-row flex-col gap-4 md:gap-0">
         {/* Card 1 */}
-        <div className="bg-white shadow-lg w-[350px] h-[200px] p-6 flex gap-4 items-center">
+        <div className="bg-white shadow-lg md:w-[450px] h-[142px] p-6 w-full flex gap-4 items-center">
           <span className="bg-blue-50 text-blue-600 p-4 font-bold text-2xl rounded-full">
             01
           </span>
@@ -20,7 +20,7 @@ const Marketcards = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="bg-white shadow-lg w-[350px] h-[200px] p-6 flex gap-4 items-center">
+        <div className="bg-white shadow-lg  md:w-[450px] h-[142px] p-6 w-full flex gap-4 items-center">
           <span className="bg-blue-50 text-blue-600 p-4 font-bold text-2xl rounded-full">
             02
           </span>
@@ -34,7 +34,7 @@ const Marketcards = () => {
         </div>
       </div>
     
-    </div>
+  
    
   );
 };
