@@ -7,6 +7,8 @@ import CasePage from './Pages/CasePage'
 import Missionpage from './Pages/Missionpage'
 import QuestionPage from './Pages/QuestionPage'
 import AboutPage from './Pages/AboutPage'
+import ConsultSolution from './Pages/ConsultSolution'
+import SuccessRate from './Component/Bussiness/SuccessRate'
 
 const App = () => {
   return (
@@ -33,6 +35,12 @@ const App = () => {
                                         </div>
                                         <div>
                                           <AboutPage/>
+                                        </div>
+                                        <div>
+                                          <ConsultSolution/>
+                                        </div>
+                                        <div>
+                                          <SuccessRate/>
                                         </div>
                                             </div>
   )

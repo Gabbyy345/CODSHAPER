@@ -3,7 +3,7 @@ import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 
 const AboutPage = () => {
   return (
-    <div className='bg-gray-100 w-full   pt-[50px] mb-6 p-6 md:p-10 flex justify-center'>
+    <div className='bg-gray-100 w-full   pt-[50px]  p-6 md:p-10 flex justify-center'>
       <div className='flex flex-col md:px-15 md:flex-row md:items-start items-center gap-10 w-full max-w-7xl'>
         {/* First card */}
         <div className='flex flex-col gap-5 text-center md:text-left'>
@@ -24,7 +24,7 @@ const AboutPage = () => {
         </div>
 
         {/* Second card */}
-        <div className='flex flex-col md:flex-row gap-4 mt-10 md:mt-0'>
+        <div className='flex flex-col md:flex-row gap-4 mt-10  md:mt-0'>
           {/* card 1 */}
           <div className='bg-white w-full md:w-[350px] h-[auto] border-2 border-gray-200 rounded-md relative'>
             <div className='w-full h-full text-left p-6 rounded-md'>

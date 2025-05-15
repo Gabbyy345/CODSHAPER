@@ -67,10 +67,10 @@ export default function Navbar() {
           <a href="#">BLOG</a>
           <a href="#">CONTENT</a>
           <div className="flex gap-4 mt-4">
-            <FaInstagram />
-            <FaLinkedinIn />
-            <FaTwitter />
-            <FaFacebookF />
+            <a href='https://www.instagram.com'> <FaInstagram /></a>
+             <a href='https://www.linkedin.com'><FaLinkedinIn /></a>
+            <a href='https://www.twitter.com'> <FaTwitter /></a>
+            <a href='https://www.facebook.com'>   <FaFacebookF /></a>
             <FaSearch />
           </div>
           <div className="text-xs mt-2">

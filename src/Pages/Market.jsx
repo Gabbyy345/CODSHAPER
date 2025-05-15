@@ -68,7 +68,7 @@ const Market = () => {
       </div>
 
       {/* Cards Section */}
-      <div className='md:absolute -bottom-20 w-full'>
+      <div className='md:absolute -bottom-20 w-full md:px-12 lg:px-20'>
         <Marketcards />
       </div>
     </div>
