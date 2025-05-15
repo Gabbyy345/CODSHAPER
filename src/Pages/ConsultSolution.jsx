@@ -7,7 +7,7 @@ const ConsultSolution = () => {
     <div className='bg-[#07122D] text-white font-semibold p-12 px-4 sm:px-8 md:px-12 lg:px-20 relative'>
                 <div className='flex md:flex-row flex-col w-full items-center gap-4 py-20 px-4 '>
                     {/* card1 */}
-                  <div className='flex flex-col items-center justify-center gap-4  md:border-r border-white/13 pr-20 mr-12'>
+                  <div className='flex flex-col items-center justify-center gap-4  md:border-r border-white/13 md:pr-20 md:mr-12'>
                       <div className='bg-black p-12 rounded-md'>
                         <img src={Solution} alt="" />       
                     </div>
@@ -16,7 +16,7 @@ const ConsultSolution = () => {
                   </div>
 
                     {/* card2 */}
-                  <div className='flex flex-col items-center justify-center gap-4 border-r border-white/20 pr-20 mr-12'>
+                  <div className='flex flex-col items-center justify-center gap-4 md:border-r  border-white/20 md:pr-20 md:mr-12'>
                       <div className='bg-black p-12 rounded-md'>
                         <img src={Solution} alt="" />
                     </div>
@@ -26,7 +26,7 @@ const ConsultSolution = () => {
 
                     {/* card 3 */}
 
-                    <div className='flex flex-col items-center justify-center gap-4 border-r border-white/20 pr-20 mr-12'>
+                    <div className='flex flex-col items-center justify-center gap-4 md:border-r border-white/20 md:pr-20 md:mr-12 '>
                         <div className='bg-black p-12 rounded-md'>
                          <img src={Solution} alt="" />
                     </div>

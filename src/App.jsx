@@ -9,6 +9,7 @@ import QuestionPage from './Pages/QuestionPage'
 import AboutPage from './Pages/AboutPage'
 import ConsultSolution from './Pages/ConsultSolution'
 import SuccessRate from './Component/Bussiness/SuccessRate'
+import Footer from './Component/Footer/Footer'
 
 const App = () => {
   return (
@@ -41,6 +42,9 @@ const App = () => {
                                         </div>
                                         <div>
                                           <SuccessRate/>
+                                        </div>
+                                        <div>
+                                          <Footer/>
                                         </div>
                                             </div>
   )
