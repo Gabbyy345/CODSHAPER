@@ -2,12 +2,12 @@ import React from 'react';
 
 const Heropage = () => {
   return (
-    <div>
-      <div className="bg-gray-500 text-white font-semibold h-screen font-jost px-4 sm:px-8 md:px-12 lg:px-20">
-        <p className="text-lg sm:text-xl mb-4 mt-4 my-2 text-center sm:text-left">
+    <div className="bg-[#3b3b3b] text-white px-6 sm:px-10 md:px-16 lg:px-24 pt-24 md:pt-32 pb-20 md:pb-28">
+      <div className='max-w-7xl mx-auto text-center lg:text-left'>
+        <p className="text-xs sm:text-sm uppercase tracking-widest text-white/60 mb-6 sm:mb-8">
           Welcome To CODESHAPER
         </p>
-        <h1 className="text-4xl sm:text-7xl md:text-6xl lg:text-7xl font-bold mb-4 flex flex-col sm:flex-row py-10 my-2 text-center sm:text-left">
+        <h1 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 sm:mb-8">
           CONSULTING <br className="hidden sm:block" /> FOR EVERY <br className="hidden sm:block" /> BUSINESS
         </h1>
         <div className="flex flex-col sm:flex-row gap-4 items-center sm:items-start justify-center sm:justify-start my-2">

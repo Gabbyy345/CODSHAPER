@@ -4,71 +4,72 @@ import Carousel from './Carousel';
 
 const Experencepage = () => {
   return (
-    <div className="bg-slate-900 text-white font-semibold p-12 px-4 sm:px-8 md:px-12 lg:px-20">
-    <div>
-      <h1 className="text-2xl sm:text-3xl font-bold mb-4 flex items-center justify-center font-jost text-white gap-2 text-center">
-        REAL-WORLD EXPERIENCE
-      </h1>
-      <p className="text-sm sm:text-lg text-gray-300 flex items-center justify-center font-jost text-center">
-        The best business consulting firm you can count on!
-      </p>
-    </div>
-
-
-      {/* Cards Section */}
-      <div className="flex flex-col sm:flex-row gap-5 py-10">
-        <div className="bg-black text-white font-semibold h-[296px] w-full sm:w-[467px] mt-10 rounded-md p-4">
-         <div className='p-5'>
-         <h1 className="text-xl sm:text-2xl font-bold mb-6 font-jost text-white text-center sm:text-left">
-            WEALTH <br /> MANAGEMENT
-          </h1>
-          <p className="text-sm sm:text-lg text-gray-300 font-jost text-center  sm:text-left">Read more</p>
-         </div>
-          <div className="flex items-center justify-center sm:justify-end mt-4">
-            <img src={logo} alt="Logo" />
-          </div>
+   <section className="bg-gray-900 text-white py-16 px-4 sm:px-6 md:px-8 lg:px-16">
+  <div className="max-w-7xl mx-auto text-center">
+    <h2 className="text-2xl sm:text-4xl font-bold mb-2 mt-10">REAL-WORLD EXPERIENCE</h2>
+    <p className="text-base sm:text-lg text-gray-400 mb-20">
+      The best business consulting firm you can count on!
+    </p>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 mt-10">
+      {/* Card 1 */}
+      <div className="bg-black rounded-lg p-6 sm:p-8 md:p-16 flex flex-col sm:flex-row sm:items-start sm:justify-between h-full text-center sm:text-left">
+        <div className="flex-1">
+          <h3 className="text-xs sm:text-xl md:text-2xl font-semibold mb-1 lg:mb-6">WEALTH MANAGEMENT</h3>
+          <p className="text-sm sm:text-base text-gray-400 lg:mt-8">Read More</p>
         </div>
-
-        <div className="bg-black text-white font-semibold h-[296px] w-full sm:w-[467px] mt-10 rounded-md p-4">
-          <div className='p-5'>
-          <h1 className="text-xl sm:text-2xl font-bold mb-6 font-jost  text-white text-center sm:text-left">
-            WEALTH <br /> MANAGEMENT
-          </h1>
-          <p className="text-sm sm:text-lg text-gray-300 font-jost text-center sm:text-left">Read more</p>
-          </div>
-          <div className="flex items-center justify-center sm:justify-end mt-4">
-            <img src={logo} alt="Logo" />
-          </div>
-        </div>
-
-        <div className="bg-black text-white font-semibold h-[296px] w-full sm:w-[467px] mt-10 rounded-md p-4">
-          <div className='p-5'>
-          <h1 className="text-xl sm:text-2xl font-bold mb-6 font-jost  text-white text-center sm:text-left">
-            WEALTH <br /> MANAGEMENT
-          </h1>
-          <p className="text-sm sm:text-lg text-gray-300 font-jost text-center sm:text-left">Read more</p>
-          </div>
-          <div className="flex items-center justify-center sm:justify-end mt-4">
-            <img src={logo} alt="Logo"  />
-          </div>
+        <div className="mt-10 sm:mt-0 sm:ml-6 flex justify-center sm:justify-end">
+          <img
+            src={logo}
+            alt="WEALTH MANAGEMENT"
+            className="w-full max-w-[40px] sm:max-w-[80px] md:max-w-[100px] h-auto object-contain lg:mt-14"
+          />
         </div>
       </div>
-
-      {/* Carousel Section */}   
-            <div> 
-            <div className="flex gap-2 items-center justify-center px-15 py-15 my-2 font-jost">
-                <hr className="w-[500px] md:w-[500px] border-gray-200" />
-                <h1 className="text-sm font-bold text-center sm:mx-4 whitespace-nowrap">
-                Meet The Partners
-                </h1>
-                <hr className="w-[500px] md:w-[500px] border-gray-200" />
-            </div>
-            </div>
-      <div>
+      {/* Card 2 */}
+      <div className="bg-black rounded-lg p-6 sm:p-8 md:p-16 flex flex-col sm:flex-row sm:items-start sm:justify-between h-full text-center sm:text-left">
+        <div className="flex-1">
+          <h3 className="text-xs sm:text-xl md:text-2xl font-semibold mb-1 lg:mb-6">WEALTH MANAGEMENT</h3>
+          <p className="text-sm sm:text-base text-gray-400 lg:mt-8">Read More</p>
+        </div>
+        <div className="mt-10 sm:mt-0 sm:ml-6 flex justify-center sm:justify-end">
+          <img
+            src={logo}
+            alt="WEALTH MANAGEMENT"
+            className="w-full max-w-[40px] sm:max-w-[80px] md:max-w-[100px] h-auto object-contain lg:mt-14"
+          />
+        </div>
+      </div>
+      {/* Card 3 */}
+      <div className="bg-black rounded-lg p-6 sm:p-8 md:p-16 flex flex-col sm:flex-row sm:items-start sm:justify-between h-full text-center sm:text-left">
+        <div className="flex-1">
+          <h3 className="text-xs sm:text-xl md:text-2xl font-semibold mb-1 lg:mb-6">WEALTH MANAGEMENT</h3>
+          <p className="text-sm sm:text-base text-gray-400 lg:mt-8">Read More</p>
+        </div>
+        <div className="mt-10 sm:mt-0 sm:ml-6 flex justify-center sm:justify-end">
+          <img
+            src={logo}
+            alt="WEALTH MANAGEMENT"
+            className="w-full max-w-[40px] sm:max-w-[80px] md:max-w-[100px] h-auto object-contain lg:mt-14"
+          />
+        </div>
+      </div>
+    </div>
+    {/* Divider with text */}
+    <div className="flex items-center justify-center w-full my-8 mt-20">
+      <div className="flex-grow border-t border-gray-700 mx-4"></div>
+      <span className="text-lg font-semibold text-gray-400 uppercase tracking-wider whitespace-nowrap">
+        MEET THE PARTNERS
+      </span>
+      <div className="flex-grow border-t border-gray-700 mx-4"></div>
+    </div>
+    {/* Carousel */}
+     <div>
         <Carousel />
       </div>
-    </div>
+  </div>
+</section>
   );
 };
 
 export default Experencepage;
+

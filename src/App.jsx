@@ -13,7 +13,7 @@ import Footer from './Component/Footer/Footer'
 
 const App = () => {
   return (
-    <div >
+    <div style={{fontFamily: 'Jost', fontWeight: '400'}} >
       <div className='bg-gray-500 text-white font-semibold '> 
       <Navbar />
       <Heropage/>
@@ -51,7 +51,7 @@ const App = () => {
 }
 
 export default App
-// import React from 'react';
+
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import Navbar from './Component/Navbar';
 // import Heropage from './Pages/Heropage';
